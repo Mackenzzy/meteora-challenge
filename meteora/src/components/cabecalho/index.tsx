@@ -1,9 +1,9 @@
 import React from 'react';
-
+import style from './Cabecalho.module.scss';
 
 function Cabecalho() {
   return (
-    <header>
+    <header className="cabecalho">
       <nav>
         <div className="logo">
           <a href="/"><img src="/img/icones/Logo-desktop.png" alt="Logo da Meteora" /></a>
